@@ -1,0 +1,763 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.Management {
+  width: 100%;
+  height: 1080px;
+}
+
+.nav {
+  background-color: #409eff;
+  height: 100%;
+  width: 11.5%;
+  float: left;
+}
+
+.logo {
+  margin-left: 25%;
+  margin-top: 18.75%;
+  margin-bottom: 18.75%;
+}
+.home_span{
+  color: white;
+  text-decoration: none;
+}
+/* 首页 */
+
+.staff {
+  float: left;
+  width: 100%;
+  height: 7.5%;
+  text-align: center;
+  line-height: 80px;
+  text-decoration: none;
+  color: white;
+  font-size: 0.9vw;
+}
+.HOmePage_Btn{
+  width: 100%;
+  height: 7.5%;
+  text-align: center;
+  line-height: 80px;
+  float: left;
+  margin-top: 11%;
+  font-size: 0.9vw;
+}
+/* 首页 */
+.student {
+  float: left;
+  width: 100%;
+  height: 7.5%;
+  text-align: center;
+  line-height: 80px;
+  text-decoration: none;
+  color: white;
+  background-color: #007eff;
+  font-size: 0.9vw;
+}
+
+.content {
+  width: 88.5%;
+  height: 100%;
+  /* position: absolute;
+  left: 11.5%; */
+float: left;
+}
+
+.header {
+  width: 100%;
+  height: 7.569%;
+  border-bottom: 1px solid #409eff;
+}
+
+.establish {
+  height: 44.77%;
+  border-radius: 25px;
+  top: 22.7%;
+  background-color: #007eff;
+  color: white;
+  border: none;
+  width: 14.845%;
+  position: relative;
+  left: 2.969%;
+  float: left;
+}
+
+.screen {
+  border-radius: 25px;
+  top: 22.7%;
+  height: 44.77%;
+  color: #808080;
+  background-color: white;
+  border: 1px solid #409eff;
+  width: 29.808%;
+  position: relative;
+  left: 4.157%;
+  outline: none;
+  text-align: center;
+  font-size: 1px;
+  float: left;
+}
+
+.import {
+  border-radius: 25px;
+  top: 22.7%;
+  height: 44.77%;
+  background-color: #007eff;
+  color: white;
+  border: none;
+  width: 11.8755%;;
+  position: relative;
+  left: 41.565%;
+}
+
+.type {
+  width: 97.973%;
+  height: 7.947%;
+  margin-left: 1.485%;
+  float: left;
+  border-bottom: 1px solid #409eff;
+}
+
+.name {
+  line-height: 85.825px;
+  margin-left: 2.66%;
+  float: left;
+}
+
+.school {
+  line-height: 85.825px;
+  margin-left: 9.09%;
+  float: left;
+}
+
+.phone {
+  float: left;
+  line-height: 85.825px;
+  margin-left: 9.09%;
+}
+
+.category {
+  float: left;
+  line-height: 85.825px;
+  margin-left: 9.09%;
+}
+
+.parent_name {
+  float: left;
+  line-height: 85.825px;
+  margin-left: 9.09%;
+}
+
+.parent_phone {
+  float: left;
+  line-height: 85.825px;
+  margin-left: 9.09%;
+}
+
+.list {
+  width: 94.117%;
+  height: 74.07%;
+  float: left;
+  margin-left: 3.125%;
+}
+
+.list_ul {
+  float: left;
+  width: 95%;
+  height: 88px;
+  list-style: none;
+  border-bottom: 1px solid #409eff;
+  line-height: 80.787px;
+  margin-left: 3%;  
+}
+.list_ul li{
+  float: left;
+}
+.list_id{
+  display: none;
+}
+.list_student_name{
+  position: absolute;
+  left: 15.1%;
+}
+/* 名字 */
+.list_school{
+position: absolute;
+left: 24.6%
+}
+/* 学校 */
+.list_phone{
+  position: absolute;
+ left:34.2%;
+}
+/* 手机号 */
+.block-col-2 {
+  border: none;
+  outline: none;
+  position: absolute;
+  left: 46%;
+  height: auto;
+  width: auto;
+}
+/* 信息类别 */
+.list_parent_name{
+  position: absolute;
+  left: 55.9%;
+  font-family: 微软雅黑;
+}
+/* 家长姓名 */
+.list_parent_phone {
+  position: absolute;
+  left: 67.1%;
+} 
+/* 家长手机号 */
+
+/* .list_li {
+  line-height: 80.787px;
+} 
+.list_li6 {
+  float: left;
+  line-height: 80.787px;
+  margin-left: 10.375%;
+} */
+
+.list_Build_Remarksbtn{
+  float: right;
+  cursor:pointer;
+  margin-right: 2%;
+  margin-top: 0.3%;
+}
+/* 添加备注按钮 */
+.SmallBell{
+  float: right;
+  margin-right: 1%;
+  margin-top: 0.2%;
+  cursor: pointer;
+}
+/* 提醒图片 */
+.list_li_btn {
+  float: right;
+  line-height: 33px;
+  width: 5%;
+  margin-right: 6%;
+  cursor: pointer;
+  margin-top: 1.4%;
+  color: #808080;
+  background-color: white;
+  border: 1px solid #409eff;
+  border-radius: 25px;
+  outline: none;
+}
+.del_list{
+  position: relative;
+  top: 6.5%;
+  left: 95%;
+  cursor: pointer;
+}
+/* 删除 */
+.list_remarksp {
+  float: left;
+  line-height: 80.787px;
+  margin-left: 1.875%;
+}
+/* 备注框 */
+.details_box2 {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  display: none;
+  position: absolute;
+  left: 0;
+  top: 0;
+
+}
+
+.details_box {
+  width: 300px;
+  height: 300px;
+  border: 1px solid red;
+  text-align: center;
+  position: absolute;
+  left: 700px;
+  top: 300px;
+}
+.mask {
+  background-color: #000;
+  opacity: 0.3;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1
+}
+.pop {
+  /* width: 22.2%; */
+  /* height:39.5%; */
+  width: 422px;
+  height: 382px;
+  background-color: #ffffff;
+  position: fixed;
+  top: 30.3%;
+  left: 44.4%;
+  z-index: 2;
+}
+.btn {
+  background-color: #fff;
+  border-radius: 4px;
+  border: 1px solid blue;
+  padding: 4px 12px;
+  float: right;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+.maska {
+  background-color: #000;
+  opacity: 0.3;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1
+}
+.popa {
+  background-color: #ffffff;
+  position: fixed;
+  top: 30.3%;
+  left: 44.4%;
+  width: 22.2%;;
+  height:39.5%;
+  z-index: 2
+}
+
+.btnb {
+  background-color: #fff;
+  border-radius: 4px;
+  border: 1px solid blue;
+  padding: 4px 12px;
+}
+.btnc {
+  background-color: #fff;
+  border-radius: 4px;
+  border: 1px solid blue;
+  padding: 4px 12px;
+}
+.Remarks{
+  font-size: 23px;
+  float: left;
+  margin-left:18px;
+  margin-top: -11px;
+}
+.build_name{
+  font-size: 18px;
+  font-family: 微软雅黑;
+  position: absolute;
+  left: 35px;
+  top: 93px;
+}
+.build_school{
+  font-size: 18px;
+  font-family: 微软雅黑;
+  position: absolute;
+  left: 35px;
+  top: 180px;
+}
+.build_phone{
+  font-size: 18px;
+  font-family: 微软雅黑;
+  position: absolute;
+  left: 35px;
+  top: 267px;
+}
+.build_information{
+  font-size: 18px;
+  font-family: 微软雅黑;
+  position: absolute;
+  left: 35px;
+  top: 354px;
+}
+.build_parent_name{
+  font-size: 18px;
+  font-family: 微软雅黑;
+  position: absolute;
+  left: 35px;
+  top: 441px;
+}
+.build_parent_phone{
+  font-size: 18px;
+  font-family: 微软雅黑;
+  position: absolute;
+  left: 35px;
+  top: 529px;
+}
+.build_name_frame{
+  position: absolute;
+  top: 125px;
+  left: 35px;
+  width: 300px;
+  height: 35px;
+}
+.build_school_frame{
+  position: absolute;
+  top: 212px;
+  left: 35px;
+  width: 500px;
+  height: 35px;
+}
+.build_phone_frame{
+  position: absolute;
+  top: 299px;
+  left: 35px;
+  width: 300px;
+  height: 35px;
+}
+.build_information_frame{
+  position: absolute;
+  top: 386px;
+  left: 35px;
+  width: 85px;
+  height: 35px;
+  -webkit-appearance:none;
+  text-align:center;
+  text-align-last:center;
+}
+.build_parent_name_frame{
+  position: absolute;
+  top: 474px;
+  left: 35px;
+  width: 300px;
+  height: 35px;
+}
+.build_parent_phone_frame{
+  position: absolute;
+  top: 564px;
+  left: 35px;
+  width: 300px;
+  height: 35px;
+}
+.block1{
+  position: absolute;
+  top: 682px;
+  left: 35px;
+}
+.block2{
+  position: absolute;
+  top: 780px;
+  left: 35px;
+}
+.build_frame_build1{
+  position: absolute;
+  left: 35px;
+  top: 735px;
+  width: 420px;
+  height: 35px;
+}
+.build_frame_build2{
+  position: absolute;
+  left: 35px;
+  top: 833px;
+  width: 420px;
+  height: 35px;
+}
+.build_remarks{
+  position: absolute;
+  top: 635px;
+  left: 35px;
+}
+.el-input__inner{
+  border: 1px solid  white;
+  border: none;
+  border-bottom: 1px solid black;
+  border-top:1px solid white; 
+  border-color: transparent;
+  margin-left: -5px
+}
+.build_sure{
+  width: 130px;
+  height: 45px;
+  position: absolute;
+  top: 902px;
+  left: 430px;
+  background-color: #409eff;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  outline: none;
+  box-shadow: none;
+}
+.build_close{
+  width: 120px;
+  height: 45px;
+  position: absolute;
+  top: 900px;
+  left: 280px;
+  background-color: white;
+  border: 1px solid #409eff;
+  border-radius: 25px;
+  outline: none;
+  box-shadow: none;
+}
+.pop_xxlx{
+  width: 85px;
+  height: 33px;
+  float: left;
+  margin-top: 2px;
+  margin-left: 10px
+  /* position: absolute;
+  top: 110px;
+  
+  appearance:none;    去除下拉框箭头 */
+}
+.demonstration{
+  float: left;
+  margin-left: 20px;  
+}
+
+
+/* 信息类别 */
+.mation{
+ /* position: absolute;
+  top: 45px; */
+  float: left;
+  margin-top: 60px;
+  margin-left: -35px;
+  /* position: absolute;
+ position: absolute; */
+}
+
+/* 事件: */
+.event{
+  float: left;
+  clear: both;
+  margin-left: 20px;
+  margin-top: -20px;
+  /* position: absolute;
+  top: 140px; */
+}
+/* 事件内容input */
+.event_input{
+  width: 56.9%;
+  height: 43.6%;
+  border: 1px solid #cccccc;
+  position: absolute;
+  top: 75%;
+  left: 22%;
+}
+/* 页数 */
+#pagination{
+  position: absolute;
+  top: 200px;
+}
+/* .el-drawer__close-btn{
+  display: none;
+} */
+
+.build_frame_delete{
+  position: absolute;
+  top: 25px;
+  left: 498px;
+  border: none;
+  background: white;
+  font-size: 18px;
+  outline: none;
+}
+.build_frame_delete:hover{
+  color: red;
+}
+.maska {
+  background-color: #000;
+  opacity: 0.3;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+.pop2 {
+  background-color: #fff;
+  position: fixed;
+  top: 330px;
+  left: 700px;
+  width: 430px;
+  height: 250px;
+  z-index: 2;
+  border: 1px solid black;
+}
+.yes {
+  background-color: #fff;
+  border: 1px solid blue;
+  width: 214px;
+  height: 57px;
+  float: left;
+  border: none;
+  margin: 0;
+  border-radius: none;
+}
+.yes:hover {
+  background-color: #409eff;
+}
+.no {
+  background-color: #fff;
+  border: 1px solid blue;
+  width: 214px;
+  height: 57px;
+  float: left;
+  border: none;
+  margin: 0;
+  border-radius: none;
+}
+.no:hover {
+  background-color: #409eff;
+}
+.yes_no {
+  text-align: center;
+  float: left;
+  width: 430px;
+  height: 192px;
+  border-bottom: 1px solid rgb(153, 149, 149);
+  color: red;
+  line-height: 192px;
+}
+
+.Preservation{
+  width: 80px;
+  height: 37px;
+  position: absolute;
+  top: 124%;
+  left: 60%;
+  border: none;
+  background-color: #409eff;
+  border-radius: 10px;
+  color: white;
+  line-height: 37px;
+  outline: none;
+  cursor:pointer;
+}
+/* 事件保存按钮 */
+
+/* 学员分组 */
+
+#none{
+  display: none;
+}
+
+#studentgrouping{
+  display: block;
+}
+
+.studentgrouping{
+  width: 250px;
+  height: 38px;
+  background-color: #409eff;
+  border: none;
+  color: white;
+  border-radius: 50px;
+  float: left;
+  margin-left: 7%;
+  margin-top: 15px;
+  background:linear-gradient(#24d2fd,#4b8eff);
+  outline: none;
+  cursor:pointer;
+}
+
+.Confirm{
+  display: block;
+  width: 200px;
+  height: 38px;
+  background-color: #409eff;
+  color: white;
+  text-decoration: none;
+  line-height: 38px;
+  text-align: center;
+  border-radius: 50px;
+  float: left;
+  margin-top: 15px;
+  margin-left: 21%;
+  display: none;
+  background:linear-gradient(#24d2fd,#4b8eff)
+}
+
+.guanbi{
+  position: absolute;
+  left: 84%;
+  top: 15px;
+  width: 80px;
+  height: 38px;
+  background-color: #409eff;
+  border: none;
+  color: white;
+  border-radius: 50px;
+  display: none;
+  background:linear-gradient(#24d2fd,#4b8eff)
+}
+
+.Singleelection{
+  position: absolute;
+  margin-top: 34px;
+  left: 96.5%;
+  display: none;
+}
+
+.Allelection{
+  margin-left: 26.3%;
+  display: none;
+  float: left;
+  line-height: 88px;
+}
+
+.ALLelection{
+  position: relative;
+  left: 12px;
+  top: 39px;
+  display: none;
+  float: left;
+}
+
+
+
+.pageContainer{
+  float: left;
+  margin-top: 200px;
+  margin-left: 600px;
+}
+.pagesInner li{
+  width: 30px;
+  text-align: center;
+  cursor: pointer;
+  float: left;
+  margin-left: 20px;
+  list-style: none;
+  font-size: 20px;
+}
+.actived{
+  border-color: #2d8cf0;
+  background-color: #2d8cf0;
+  color: #fff;
+}
+
+
+/* 滚动条 */
+
+.el-drawer::-webkit-scrollbar {
+  width: 10px;
+  height: 1px;
+}
+  
+
+.el-drawer::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+  background: #71b7fe;
+}
+  
+
+.el-drawer::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 1px rgba(0, 0, 0, 0);
+  border-radius: 10px;
+  background: #e6e6e6;
+}

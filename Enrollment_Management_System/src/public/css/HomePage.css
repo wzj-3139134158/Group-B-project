@@ -1,0 +1,388 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.homes{
+    width: 11.52%;
+    height: 1080px;
+    background-color: #409eff;
+    float: left;
+}
+
+/* 首页小盒子 */
+
+.HOmePage{
+    width: 100%;
+    height: 7.5%;
+    text-align: center;
+    line-height: 80px;
+    float: left;
+    background-color: #017eff;
+    margin-top: 11%;
+    
+}
+.Home_smallbox1{
+    color: white;
+    text-decoration: none;
+    font-size: 0.9vw;
+}
+
+/* 员工管理小盒子 */
+.Staff_smallbox1{
+    width: 100%;
+    height: 7.5%;
+    text-align: center;
+    line-height: 80px;
+    float: left;
+    font-size: 0.9vw;
+}
+/* 标题 */
+.Managements_smallbox1{
+    color: white;
+    text-decoration: none;
+    font-size: 0.9vw;
+}
+.Student_smallbox{
+    width: 100%;
+    height: 7.5%;
+    background-color: #409eff;
+    text-align: center;
+    line-height: 80px;
+    float: left;
+}
+/* 学员信息管理 */
+.COntent{
+    width: 88.429%;
+    height: 1080px;
+    float: left;
+}
+.COntent_dir{
+    width: 100%;
+    height: 106px;
+    border-bottom: 1px solid #cccccc;
+    text-align: center;
+    line-height: 106px;
+}
+.COntent_dir_tou{
+    color: #303133;
+    font-size: 22px;
+}
+
+/* 目录 */
+
+.COntent_catalog{
+    width: 98%;
+    height: 78px;
+    border-bottom: 1px solid #cccccc;
+    line-height: 80px;
+    margin-left: 1%;
+    /* float: left; */
+    list-style: none;
+}
+.COntent_catalog_name{
+    /* width: 8.5%; */
+    height: 78px;
+    color: #666666;
+    font-size: 16px;
+    text-align: center;
+    font-weight:  normal;
+    float: left;
+    position: relative;
+    left: 3.2%;
+}
+.COntent_catalog_phone{
+    /* width: 12%; */
+    height: 78px;
+    color: #666666;
+    font-size: 16px;
+    text-align: center;
+    font-weight:  normal;
+    float: left;
+    position: relative;
+    left: 12.8%;
+}
+.COntent_catalog_category{
+    /* width: 13%; */
+    height: 78px;
+    color: #666666;
+    font-size: 16px;
+    text-align: center;
+    font-weight:  normal;
+    float: left;
+    position: relative;
+    left: 20.2%;
+}
+.COntent_catalog_RpbTeacher{
+    /* width: 12.5%; */
+    height: 78px;
+    color: #666666;
+    font-size: 16px;
+    font-weight:  normal;
+    text-align: center;
+    float: left;
+    position: relative;
+    left: 28.5%;
+}
+.COntent_catalog_event{
+    /* width: 10.35%; */
+    height: 78px;
+    color: #666666;
+    font-size: 16px;
+    font-weight:  normal;
+    text-align: center;
+    float: left;
+    position: relative;
+    left: 37.7%;
+}
+.COntent_catalog_time{   
+    /* width: 11%; */
+    height: 78px;
+    color: #666666;
+    font-size: 16px;
+    font-weight:  normal;
+    text-align: center;
+    float: left;
+    position: relative;
+    left: 45.8%;
+}
+
+/* 内容 */
+
+.COntent_repaira{
+    width: 1682px;
+    height: 80px;
+    line-height: 80px;
+    float: left;
+    /* display: block; */
+}
+
+.COntent_repair{
+    width: 95.1%;
+    height: 80px;
+    border-bottom: 1px solid #cccccc;
+    line-height: 80px;
+    margin-left: 2.5%;
+    float: left;
+    display: block;
+}
+.HomePage_name{
+    height: 80px;
+    color: #666666;
+    float: left;
+    position: absolute;
+    left: 15.2%;
+}
+
+.HomePage_phone{
+    height: 80px;
+    color: #666666;
+    float: left;
+    position: absolute;
+    left: 25.2%;
+}
+.HomePage_category{
+    height: 80px;
+    color: #666666;
+    float: left;
+    position: absolute;
+    left: 35.2%;
+}
+.HomePage_RpbTeacher{
+    height: 80px;
+    color: #666666;
+    float: left;
+    position: absolute;
+    left: 45.7%;
+}
+.HomePage_event{
+    height: 80px;
+    color: #666666;
+    float: left;
+    position: absolute;
+    left: 56.7%;
+}
+.HomePage_time{
+    height: 80px;
+    color: #666666;
+    float: left;
+    position: absolute;
+    left: 65%;
+}
+
+/* 删除 */
+
+.HomePage_imgs{
+    cursor:pointer;
+    float: left;
+    margin-left: 90%;
+
+}
+.HomePage_details{
+    float: left;
+    position: absolute;
+    left: 92%;
+}
+#details{
+    width: 80px;
+    height: 33px;   
+    background-color: white;
+    border: 1px solid #66b1ff;
+    color: #666666;
+    border-radius: 50px;
+    line-height: 0.8;
+}
+.el-drawer__close-btn{
+    /* display: none; */
+}
+
+/* 修改 */
+
+.home_name{
+    font-size: 17px;
+    color: #666666;
+    /* margin-left: 35px; */
+    /* margin-top: 16px; */
+    position: relative;
+    top: 10px;
+    left: 35px;
+}
+.home_input{
+    width: 300px;
+    height: 33px;
+    margin-left: 35px;
+    margin-top: 25px;
+
+}
+.home_select{
+    width: 85px;
+    height: 35px;
+    margin-left: 35px;
+    margin-top:25px;
+    -webkit-appearance: none;   /* 去掉箭头 */
+    text-align: center;
+    -moz-text-align-last: center;
+    text-align-last: center;   /* 选项居中 */
+}
+/* 备注 */
+
+.remarks_returnvisit{
+    width: 300px;
+    height: 37px;
+    border-bottom: 1px solid #cccccc;
+    position: relative;
+    left: 35px;
+    top: 25px
+}
+.returnvisit_span{
+    line-height: 37px;
+    float: left;
+}
+#returnvisit_time{
+    width: 199px;
+    height: 37px;
+    float: left;
+    border:none;
+    margin-left: 10px;
+}
+.returnvisit_input{
+    width: 619px;
+    height: 35px;
+    position: relative;
+    left: 35px;
+    top: 35px
+
+}
+.remarks_introduction{
+    width: 300px;
+    height: 37px;
+    border-bottom: 1px solid #cccccc;
+    position: relative;
+    left: 35px;
+    top: 45px
+}
+.introduction_span{
+    line-height: 37px;
+    float: left;
+}
+#introduction_time1{
+    width: 199px;
+    height: 37px;
+    border:none;
+    margin-left: 10px;
+}
+
+.introduction_input{
+    width: 619px;
+    height: 35px;
+    position: relative;
+    left: 35px;
+    top: 55px;
+}
+.el-input__prefix{
+    display: none;
+}
+
+/* 提醒 */
+
+.remind{
+    position: relative;
+    top: 85px;
+    left: 35px;
+}
+#remind_time1{
+    position: relative;
+    top: 100px;
+    left: 35px;
+}
+
+/* 关闭 */
+
+#drawer .el-drawer__close-btn{
+    display: none;
+}
+.Close{
+    width: 151px;
+    height: 45px;
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    border-radius: 50px;
+    font-size: 17px;
+    position: fixed;
+    top: 93.1%;
+    right: 280px;
+}
+/* 确认 */
+
+.confirm{
+    width: 151px;
+    height: 45px;
+    background-color: #66b2ff;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    position: fixed;
+    top: 93.1%;
+    right: 100px;
+    font-size: 17px;
+}
+
+/* 滚动条 */
+
+.el-drawer::-webkit-scrollbar {
+    width: 10px;
+    height: 1px;
+  }
+  
+  /*滚动条滑块*/
+  .el-drawer::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+    background: #71b7fe;
+  }
+  
+  /*滚动条轨道*/
+  .el-drawer::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 1px rgba(0, 0, 0, 0);
+    border-radius: 10px;
+    background: #e6e6e6;
+  }

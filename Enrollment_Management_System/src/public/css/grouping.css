@@ -1,0 +1,276 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.grouping {
+    width: 100%;
+  height: 1080px;
+  
+}
+/* 外部盒子 */
+.grouping_index{
+    width: 11.561%;
+    height: 1181px;
+    background-color: #409eff;
+    float: left;
+    background-image: linear-gradient(#20d0ff, #4d8cfe);
+}
+
+/* 左侧点击跳转盒子 */
+
+.grouping_staff {
+    float: left;
+    width: 100%;
+    height: 7.4%;
+    text-align: center;
+    line-height: 80px;
+    text-decoration: none;
+    color: white;
+    margin-top: 9.8%;
+  }
+  /* 员工管理 */
+  .grouping_span{
+    float: left;
+    width: 100%;
+    height: 7.4%;
+    text-align: center;
+    line-height: 80px;
+    text-decoration: none;
+    color: white;
+  }
+  /* 分组管理 */
+  .grouping_student{
+    float: left;
+    width: 100%;
+    height: 7.4%;
+    text-align: center;
+    line-height: 80px;
+    text-decoration: none;
+    color: white;
+  }
+  /* 学员管理信息 */
+.Content_div{
+    width: 88.6%;
+    height: 100%;
+    margin-left: 11.55%;
+  }
+.Content_title {
+    width: 100%;
+    height: 9.39%;
+    border-bottom: 1px solid #cccccc;
+    text-align: center;
+}
+
+#Content_left{
+  width: 33.3%;
+  height: 72%;
+  margin-left: 150px;
+  border: 1px solid #cccccc;
+  float: left;
+  margin-top: -0.1%;
+  margin-left: 4.7%;
+  box-shadow: 0px 0px 10px rgb(245, 245, 245) ;
+  overflow-y:scroll ;
+
+}
+/*学院分组左边的盒子 */
+
+.Content_right{
+  width: 52.5%;
+  height: 72%;
+    border: 1px solid #cccccc;
+    float: right;
+    margin-right: 5%;
+    margin-top: -0.1%;
+    box-shadow: 0px 0px 10px rgb(245, 245, 245) ;
+}
+/* 学院分组左盒子 */
+.ScrollBar{
+  width: 100%;
+  height: 91.7%;
+  float: left;
+  overflow-y:scroll; 
+  /* 滚动条 */
+}
+/* 滚动条盒子 */
+.Content_btn{
+    width: 90%;
+    height: 8%;
+    margin-left: 30px;
+    float: left;
+    background-color: white;
+    outline:none; /* 取消点击蓝色表框 */
+    border: none;
+    border-bottom: 1px solid #cccccc;
+}
+/* 学员分组左边按钮 */
+.Content_table{
+  width: 90%;
+  height: 100%;
+  margin: auto;
+  border-bottom: 1px solid #cccccc; 
+  width: auto;
+}
+.th_staff{
+  font-size: 15px;
+  float: left;
+  color: #666666;
+  font-weight: normal;
+  line-height: 60px;
+}
+.th_number{
+  width: 15%;
+  position: relative;
+  top: 13px;
+  line-height: 25px;
+  height: 40%;
+  border-radius: 50px;
+  float: right;
+  font-weight: normal;
+  border: 1px solid #409eff;
+}
+
+#Content_left::-webkit-scrollbar  
+{  
+    width: 9px;  
+    height: 10px;  
+    background-color: #e5e5e5;  
+}
+
+#Content_left::-webkit-scrollbar-thumb  
+{  
+    border-radius: 10px;  
+    box-shadow: inset 0 0 6px #65b1ff;  
+    background-color: #65b1ff;  
+}  
+
+        /* 左边盒子滚动条 */
+.Content_Title{
+  width: 100%;
+  height: 8.3%;
+  float: left;
+  border-bottom: 1px solid #cccccc;
+}
+/* 右边盒子标题下划线 */
+.Content_student{
+  width: 90%;
+  height: 8.3%;
+  float: left;
+  margin-left: 5%;
+  border-bottom: 1px solid #cccccc;
+}
+/* 学员内容 */
+.title_name{
+  margin-top: 3.3%;
+  float: left;
+  margin-left: 8.1%;
+  color: #666666;
+}
+/* 姓名 */
+
+.title_phone  {
+  margin-left: 12.48%;
+  margin-top: 3.2%;
+  float: left;
+  color: #666666;
+}
+/* 手机号 */
+
+.title_category{
+  margin-left: 20.8%;
+  margin-top: 3.2%;
+  float: left;
+  color: #666666;
+}
+/* 信息类别 */
+
+.title_btn{
+  width: 8.6%;
+  height: 43.8%;
+  background-image: linear-gradient(#5fdefe,#4b8dfe);
+  float: left;
+  margin-top: -3.5%;
+  margin-left: 83.6%;
+  border-radius: 20px;
+  border:none;
+  color: white;
+  outline: none;
+}
+/* 右边盒子操作按钮 */
+
+.ScrollBar::-webkit-scrollbar  
+{  
+    width: 9px;  
+    height: 10px;  
+    background-color: #e5e5e5;  
+}
+
+.ScrollBar::-webkit-scrollbar-thumb  
+{  
+    border-radius: 10px;  
+    box-shadow: inset 0 0 6px #65b1ff;  
+    background-color: #65b1ff;  
+}  
+      /* 右边盒子滚动条 */
+
+.form_name{
+  float: left;
+  margin-left: 3.2%;
+  margin-top: 3.6%;
+  color: #666666;
+}
+      /* 右边盒子姓名内容 */
+.form_phone{
+  float: left;
+  margin-left: 14%;
+  margin-top: 3.6%;
+  color: #666666;
+}
+/* 右边盒子手机号内容 */
+
+.Content_right .form_smallbell{
+  text-align: center;
+  float: left;
+  margin-left: 77.7%;
+  margin-top: -4%;
+}
+/* 铃铛 */
+
+.Content_right .form_build{
+  float: left;
+  margin-left: 83%;
+  margin-top: -4%;
+  text-align: center;
+}
+
+/* 添加 */
+
+/* #form_details{
+  width: 9.48%;
+  height: 47.6%;
+  float: left;
+  margin-top: -4.3%;
+  color: black;
+  border-radius: 25px;
+  border: 1px solid #65b1fd;
+  background-color: #fff;
+  line-height: 8px;
+  margin-right:  3.2%;
+  margin-left: 88%;
+
+}
+ */
+
+ .form_btn{
+   margin-left: 88%;
+   margin-top: -3.6%;
+   float: left;
+   background-color: white;
+   color: black;
+   border: 1px solid #409eff;
+   width: 8.4%;
+   height: 32.6%;
+   border-radius: 25px;
+ }
+    
+ 
